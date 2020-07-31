@@ -40,6 +40,7 @@
             this.BTNCALCULAR = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.LBLRESULTADO = new System.Windows.Forms.Label();
+            this.BTNBORRAR = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -130,7 +131,7 @@
             // 
             // BTNCALCULAR
             // 
-            this.BTNCALCULAR.Location = new System.Drawing.Point(620, 146);
+            this.BTNCALCULAR.Location = new System.Drawing.Point(601, 101);
             this.BTNCALCULAR.Name = "BTNCALCULAR";
             this.BTNCALCULAR.Size = new System.Drawing.Size(116, 48);
             this.BTNCALCULAR.TabIndex = 9;
@@ -160,11 +161,22 @@
             this.LBLRESULTADO.Text = "RESULTADO";
             this.LBLRESULTADO.Visible = false;
             // 
+            // BTNBORRAR
+            // 
+            this.BTNBORRAR.Location = new System.Drawing.Point(601, 201);
+            this.BTNBORRAR.Name = "BTNBORRAR";
+            this.BTNBORRAR.Size = new System.Drawing.Size(116, 48);
+            this.BTNBORRAR.TabIndex = 12;
+            this.BTNBORRAR.Text = "BORRAR";
+            this.BTNBORRAR.UseVisualStyleBackColor = true;
+            this.BTNBORRAR.Click += new System.EventHandler(this.BTNBORRAR_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BTNBORRAR);
             this.Controls.Add(this.LBLRESULTADO);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.BTNCALCULAR);
@@ -197,6 +209,7 @@
         private System.Windows.Forms.Button BTNCALCULAR;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label LBLRESULTADO;
+        private System.Windows.Forms.Button BTNBORRAR;
     }
 }
 

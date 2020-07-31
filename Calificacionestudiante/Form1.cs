@@ -41,5 +41,20 @@ namespace Calificacionestudiante
 
 
         }
+
+        private void BTNBORRAR_Click(object sender, EventArgs e)
+        {
+            TXTNOTA1.Text = String.Empty;
+            TXTNOTA2.Text = String.Empty;
+            TXTNOTA3.Text = String.Empty;
+            TXTNOTA4.Text = String.Empty;
+
+            label6.Visible = false;
+            LBLRESULTADO.Visible = false;
+
+            //para que el cursor me lo ponga en el campo txtnota1
+
+            TXTNOTA1.Focus();
+        }
     }
 }
