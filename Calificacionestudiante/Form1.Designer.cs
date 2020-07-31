@@ -101,6 +101,7 @@
             this.TXTNOTA1.Name = "TXTNOTA1";
             this.TXTNOTA1.Size = new System.Drawing.Size(85, 39);
             this.TXTNOTA1.TabIndex = 5;
+            this.TXTNOTA1.TextChanged += new System.EventHandler(this.TXTNOTA1_TextChanged);
             // 
             // TXTNOTA2
             // 
